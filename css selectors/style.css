@@ -1,0 +1,55 @@
+*{
+	text-align: center;
+}
+body{
+	background-image: url(tech.jpg);
+    font-size: 30px;
+	font-family: bold;
+	background-color: lightblue;
+
+}
+
+h1{
+	font-size: 50px;
+	text-align: center;
+	border: 5px solid purple;
+	cursor: pointer;
+	color: #AA4139;
+}
+
+a{
+
+	color: purple;
+	text-decoration-style: dashed;
+	
+}
+h2 ,p{
+	font-size: 35px;
+	text-align: center;
+	border: 5px  dashed green;
+	cursor: pointer;
+}
+
+p{
+	color: black;
+	text-align: center;
+	font-size: 25px;
+	border: 5px  dashed green;
+}
+.webtext:last-child {
+	border: 5px dashed blue;
+}
+.active{
+	color: red ;
+}
+#orangeParagraph{
+	color: orange;
+}
+#div1{
+	
+	background: rgba(0, 0, 255, 0.2);
+}
+#div2{
+	
+	background: rgba(255, 0, 0, 0.2);
+}
