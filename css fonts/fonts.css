@@ -1,0 +1,23 @@
+body{
+    font-size: 30px;
+	font-family: bold;
+	background-color: green;
+	
+
+}
+p{
+	line-height: 20px;
+	font-style: italic;
+	font-weight: bold;
+	font-size: 80%;
+	color: black;
+	text-decoration: underline;
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 25px;
+    font-family: 'Roboto Mono', monospace;
+}
+h1{
+	color: black;
+	border: dashed black;
+}
