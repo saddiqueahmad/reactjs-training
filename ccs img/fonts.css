@@ -1,0 +1,33 @@
+body{
+    font-size: 30px;
+	font-family: bold;
+	background-color: green;
+	
+
+}
+p{
+	line-height: 5px;
+	font-style: italic;
+	font-weight: bold;
+	font-size: 80%;
+	color: black;
+	text-decoration: underline;
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 25px;
+    font-family: 'Roboto Mono', monospace;
+    border: solid white;
+
+}
+h1{
+	color: black;
+	border: dashed black;
+}
+img{
+	float: right;
+}
+footer{
+	clear: both;
+	text-align: right;
+
+}
