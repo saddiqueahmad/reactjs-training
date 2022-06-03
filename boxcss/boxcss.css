@@ -1,0 +1,11 @@
+.boxmodel{
+	border: 5px solid blue;
+	padding: 20px 5px 20px 5px;
+	margin: 5px 20px;
+}
+p{
+	text-decoration: underline;
+	font-family: bold;
+	text-align: center;
+	background-color: lightblue;
+}
