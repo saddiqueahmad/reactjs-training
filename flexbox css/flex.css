@@ -1,0 +1,21 @@
+img{
+	width: 350px;
+	height: 350px ;
+	margin: 5px;
+}
+
+.container{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	padding: 20px 5px 20px 5px;
+	border: 3px dashed blue;
+}
+
+h1{
+	font-family: fantasy;
+	font-size: 5em;
+	border-bottom: 2px solid black;
+	width: 400px;
+	text-align: center;
+}
