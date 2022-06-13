@@ -1,0 +1,61 @@
+body{
+background-image: url(biryani2.jpg);
+background-size: cover;
+color: white;
+}
+
+h2{
+	text-align: center;
+	color: black;
+	font-size: xx-large;
+	text-decoration: underline;
+	border: solid blue;
+	background-color: white;
+	text-shadow: 2px 2px;
+	background-color: transparent;
+	box-shadow: 4px 4px 5px #888888;
+	 box-sizing: border-box;
+	 transition: all 1s;
+
+}
+img {
+  display: block;
+  margin-left: auto;
+  border: solid white;
+  height: 300px;
+  position: relative; 
+  top: -260px;
+  border-radius: 25px;
+   background-color: transparent;
+   transition: all 1s;
+   float:right;
+}
+h3
+{
+	font-size: 40px;
+	border: solid black;
+	font-family: fantasy;
+	color: black;
+	background-color: white;
+	 background-color: transparent;
+	 padding: 0px 5px 0px 5px;
+}
+p{
+	font-style: italic;
+	font-size: 35px;
+	text-align: left;
+	color: ghostwhite;
+	font-family: sans-serif;
+	text-decoration: underline;
+}
+.menu{
+
+	text-align: justify;
+	color: white;
+}
+img:hover{
+	transform: scale(1.1);
+}
+h2:hover{
+	transform: scale(1.1);
+}
