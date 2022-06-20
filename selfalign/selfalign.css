@@ -1,0 +1,31 @@
+.flex-container {
+  display: flex;
+  background-color: lightblue;
+  height: 300px;
+  width: 0 auto;
+  justify-content: space-around;
+  flex-flow: row-reverse;
+  align-items: flex-start;
+  
+}
+
+h1{
+  text-align:center;
+  box-shadow: 4px 4px 5px #888888;
+  margin: 10px;
+}
+
+.flex-item1{
+  align-self: stretch;
+
+
+}
+
+.flex-item2{
+  align-self: center;
+  
+}
+
+.flex-item3{
+  align-self: flex-end;
+}
