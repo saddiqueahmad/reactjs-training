@@ -1,0 +1,17 @@
+.flex-container {
+  display: flex;
+  background-color: lightblue;
+  height: 300px;
+  width: 0 auto;
+  justify-content: flex-start;
+  flex-flow: row;
+  flex-wrap: wrap;
+  align-content: space-around;
+}
+
+h1{
+  text-align:center;
+  box-shadow: 4px 4px 5px #888888;
+  margin: 10px;
+}
+
