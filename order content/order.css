@@ -1,0 +1,32 @@
+.flex-container {
+  display: flex;
+  background-color: lightblue;
+  height: 300px;
+  width: 0 auto;
+  justify-content: center;
+  flex-flow: column; 
+}
+
+h1{
+  text-align:center;
+  box-shadow: 4px 4px 5px #888888;
+  margin: 10px;
+}
+
+.flex-item1{
+  
+  order: 3;
+
+
+}
+
+.flex-item2{
+
+  order: 2;
+  
+}
+
+.flex-item3{
+  
+  order: 1;
+}
