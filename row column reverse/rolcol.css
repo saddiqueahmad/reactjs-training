@@ -1,9 +1,12 @@
 .flex-container {
   display: flex;
-  background-color: DodgerBlue;
+  background-color: lightblue;
   height: 300px;
-  justify-content: center;
-  flex-direction: column-reverse;
+  width: 0 auto;
+  justify-content: space-between;
+  flex-flow: column;
+  align-items: flex-start;
+  
 }
 
 .flex-container > div {
@@ -11,10 +14,11 @@
   margin: 10px;
   padding: 0px;
   font-size: 30px; 
+
 }
 
 h1{
-  text-align: center;
+  text-align:center;
   box-shadow: 4px 4px 5px #888888;
   margin: 10px;
 }
