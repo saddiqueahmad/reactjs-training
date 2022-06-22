@@ -1,0 +1,84 @@
+html, body{
+	margin: 0;
+}
+
+html{
+	background: #2c3e50;
+}
+
+body{
+	font-family: 'Inconsolata', monospace;
+	color: white;
+	width: 80%;
+	margin: 0 auto;
+	padding: 2%;
+	line-height: 1.6;
+	text-align: center;
+	height: 3000px;
+}
+
+.flex-container{
+	margin: 1em 0;
+	border: 1px solid white;
+}
+
+.flex-item{
+	border: 2px solid grey;
+}
+
+h1, h2, h3{
+
+	color: white;
+	margin: 0;
+	line-height: 1;
+	font-family: 'Asap' sans-serif;
+}
+
+h1{
+	font-size: 3em;
+}
+
+h2{
+	font-size: 4em;
+}
+
+h3{
+
+	font-size: 1.8em;
+	text-transform: uppercase;
+}
+
+p{
+	font-size: 1.5em;
+}
+
+.flex-container{
+       height: 300px;
+       display: flex;
+      
+       
+
+}
+
+.flex-item{
+       
+      flex-grow: 1;
+
+}
+
+.item1{
+   
+  flex-basis: auto;
+
+}
+
+.item2{
+       
+	
+}
+
+.item3{
+
+	 
+	
+}
