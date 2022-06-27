@@ -1,0 +1,105 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+/* COLORS and FONTS */
+body {
+    color: white;
+    text-align: center;
+    font-size: 24px;
+    line-height: 3;
+}
+.header {
+    background: black;
+    height: 170px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 60px;
+    font-weight: bold;
+    font-family: monospace;
+    padding-top: 160px;
+    letter-spacing: 5px;
+
+}
+
+.para{
+
+    background: black;
+    color: orange;
+    padding-bottom: 140px;
+    font-style: italic;
+    display: flex;
+    justify-content: center;
+
+}
+    
+a {
+   color: black;
+   letter-spacing: 5px;
+   text-decoration: none;
+   background: orange;
+   padding: 0 0;
+   display: flex;
+   justify-content: space-around;
+   align-content: center;
+
+
+}
+
+a:hover {
+   background: gray;
+}
+.container ul {
+   
+   list-style: none;
+   margin: 0;
+   padding: 0;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: flex-start;
+
+
+   
+}
+
+.container li {
+   flex-grow: 1; 
+   
+     
+}
+
+.card{
+
+    display: flex;
+    width: 100%;
+    height: 50%;
+    padding: 5px 10px;
+}
+
+.left-container{
+    display: flex;
+    color: black;
+    border: 3px solid black;
+    flex: 3;
+    
+
+}
+
+.right-container{
+
+    display: flex;
+    color: black;
+    border: 3px solid black;
+    flex: 1;
+    
+}
+
+.main-container{
+    display: flex;
+    margin: 10px;
+    padding: 10px;
+
+    
+}
