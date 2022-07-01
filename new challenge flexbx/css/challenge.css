@@ -1,0 +1,228 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+/* //////////////////////////////////////////////////////////////////////// */
+                            /* COLORS and FONTS */
+/* //////////////////////////////////////////////////////////////////////// */
+
+body {
+    color: white;
+    text-align: center;
+    font-size: 24px;
+    line-height: 3;
+}
+img{
+    width: 100%;
+    display: block;
+}
+.header {
+    background: black;
+    height: 170px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 60px;
+    font-weight: bold;
+    font-family: monospace;
+    padding-top: 160px;
+    letter-spacing: 5px;
+
+}
+
+.para{
+
+    background: black;
+    color: orange;
+    padding-bottom: 140px;
+    font-style: italic;
+    display: flex;
+    justify-content: center;
+
+}
+    
+a {
+   color: black;
+   letter-spacing: 5px;
+   text-decoration: none;
+   background: orange;
+   padding: 0 0;
+   display: flex;
+   justify-content: space-around;
+   align-content: center;
+
+
+}
+
+a:hover {
+   background: gray;
+}
+.container ul {
+   
+   list-style: none;
+   margin: 0;
+   padding: 0;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: flex-start;
+}
+
+.container li {
+   flex-grow: 1; 
+}
+
+/* //////////////////////////////////////////////////////////////////////// */
+                            /* Main area */
+/* //////////////////////////////////////////////////////////////////////// */
+.main-container-post{
+    display: flex;
+    margin: 10px;
+    padding: 10px;
+    
+}
+
+.left-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    border: 3px solid black;
+    background: #FFFFFF;
+    
+
+}
+
+.right-container{
+       
+    flex: 0 0 320px;
+    border: 3px solid black;
+   
+}
+.movie-card{
+    flex-basis: 45%;
+    padding: 0 0 10px 0;
+}
+.movie-card img{
+
+
+}
+.movie-card h3{
+
+    color: black;
+    background: orange;
+}
+.movie-card p{
+
+    background: white;
+    color: black;
+    line-height: 25px;
+}
+
+.movie-card1{
+    flex-basis: 45%;
+      padding: 0 0 13px 0;
+}
+.movie-card1 img{
+
+
+}
+.movie-card1 h3{
+
+    color: black;
+    background: orange;
+}
+.movie-card1 p{
+
+    background: white;
+    color: black;
+    line-height: 26px;
+}
+
+.movie-card2{
+    flex-basis: 30%;
+    padding: 0 0 10px 0;
+}
+.movie-card2 img{
+
+
+}
+.movie-card2 h3{
+
+    color: black;
+    background: orange;
+    line-height: 42px;
+}
+.movie-card2 p{
+
+    background: white;
+    color: black;
+    line-height: 25px;
+}
+
+.movie-card3{
+    flex-basis: 30%;
+     padding: 0 0 10px 0;
+
+}
+.movie-card2 img{
+
+
+}
+.movie-card3 h3{
+
+    color: black;
+    background: orange;
+}
+.movie-card3 p{
+
+    background: white;
+    color: black;
+    line-height: 25px;
+}
+
+.movie-card4{
+    flex-basis: 30%;
+     padding: 0 0 10px 0;
+}
+.movie-card4 img{
+
+
+}
+.movie-card4 h3{
+
+    color: black;
+    background: orange;
+}
+.movie-card4 p{
+
+    background: white;
+    color: black;
+    line-height: 25px;
+}
+
+.movie-card5{
+    flex-basis: 95%;
+    padding: 0 0 10px 0;
+}
+.movie-card5 img{
+
+
+}
+.movie-card5 h3{
+
+    color: black;
+    background: orange;
+}
+.movie-card5 p{
+
+    background: white;
+    color: black;
+    line-height: 25px;
+}
+
+.heading{
+    color: black;
+    font-family: sans-serif;
+    font-style: oblique;
+}
+
