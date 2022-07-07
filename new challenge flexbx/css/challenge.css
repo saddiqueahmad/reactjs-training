@@ -92,12 +92,7 @@ a:hover {
 
 }
 
-.right-container{
-       
-    flex: 0 0 320px;
-    border: 3px solid black;
-   
-}
+
 .movie-card{
     flex-basis: 45%;
     padding: 0 0 10px 0;
@@ -140,7 +135,7 @@ a:hover {
 
 .movie-card2{
     flex-basis: 30%;
-    padding: 0 0 10px 0;
+    padding: 0 0 10px 5px;
 }
 .movie-card2 img{
 
@@ -182,7 +177,7 @@ a:hover {
 
 .movie-card4{
     flex-basis: 30%;
-     padding: 0 0 10px 0;
+     padding: 0 5px 10px 0;
 }
 .movie-card4 img{
 
@@ -195,6 +190,8 @@ a:hover {
 }
 .movie-card4 p{
 
+
+    
     background: white;
     color: black;
     line-height: 25px;
@@ -223,6 +220,350 @@ a:hover {
 .heading{
     color: black;
     font-family: sans-serif;
-    font-style: oblique;
+    font-weight: bold;
 }
+
+/* WATCH SECTION */
+
+.watch-container{
+    display: flex;
+    margin: 10px;
+    padding: 10px;
+
+}
+
+.watch-right{
+
+    display: flex;
+    border: 3px solid black;
+    background: black;
+    line-height: 25px;
+    align-content: center;
+}
+
+.watch-right p{
+
+}
+
+.watch-right h1{
+
+  
+}
+
+.sub-inner{
+
+   display: flex;
+    flex-flow: column;
+    justify-content: center;
+   
+}
+
+.header-1{
+
+    display: flex;
+    margin: 10px;
+    padding: 10px;
+     border: 1px solid white;
+   
+
+}
+
+.lists-new{
+
+     border: 1px solid white;
+    margin: 10px;
+    padding: 10px;
+  
+}
+
+.lists-new ul{
+     
+    display: flex;
+     list-style: none;
+     justify-content:space-around;
+
+ }
+
+ .description{
+
+    margin: 10px;
+     border: 1px solid white;
+   
+}
+
+
+.watch-left{
+    
+    border: 3px solid black;
+    flex: 0 0 400px;
+    flex-basis: 35%;
+}
+
+.watch-left img{
+
+}
+
+.watch-right1{
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    border: 3px solid black;
+    background: black;
+    line-height: 25px;
+    align-content: center;
+    justify-content: space-around;
+    order: -1;
+    
+    
+}
+.watch-right1 p{
+
+
+}
+
+
+.watch-left1{
+    
+    border: 3px solid black;
+    flex: 0 0 400px;
+    flex-basis: 35%;
+}
+
+.watch-left1 img{
+
+}
+
+/* DOWNLOAD SECTION */
+
+.heading1 h1{
+    color: black;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.download-container{
+
+    flex-basis: 100%;
+    background: black;
+    display: flex;
+    margin: 10px;
+    
+
+
+}
+
+
+.download-container img{
+
+       
+
+}
+
+.dow-sub-container{
+   
+   display: flex;
+    margin: 10px;
+    padding: 0px;
+    margin-top: -10px;
+
+  
+ 
+}
+
+
+.sub-left{
+    
+    border: 2px solid black;
+    flex-basis: 25%;
+    background: black;
+
+}
+
+
+.sub-mid{
+     
+     border: 2px solid black;
+     flex-basis: 50%;
+     background: white;
+    
+}
+
+.sub-right{
+    
+    border: 2px solid black;
+    flex-basis: 25%;
+    background: orange;
+}
+
+.gallery-heading{
+
+}
+
+.gallery-heading h1{
+       
+    color: black;
+    font-family: sans-serif;
+    font-weight: bold;
+
+}
+
+.movie-container{
+
+  
+  padding: 10px;
+  display: flex;
+  flex-wrap: wrap;
+ 
+ }
+
+
+
+
+ .img1{
+
+     display: flex;
+    flex-basis: 25%;
+    padding: 5px;
+    
+}
+
+
+.img2{
+
+     display: flex;
+    flex-basis: 50%;
+    padding: 5px;
+    
+
+}
+
+
+ .img3{
+     
+     display: flex;
+    flex-basis: 25%;
+    padding: 5px;
+    
+
+ }
+
+.img4{
+
+
+     display: flex;
+    flex-basis: 60%;
+    padding: 5px;
+    
+    
+}
+
+ .img5{
+
+    display: flex;
+    flex-basis: 40%;
+    padding: 5px;
+    
+
+ }
+
+.img6{
+
+
+    display: flex;
+    padding: 5px;
+    flex-basis: 30%;
+}
+
+ .img7{
+     
+     display: flex;
+     flex-basis: 20%;
+     padding: 5px;
+    
+ }
+
+.img8{
+
+   display: flex;
+    flex-basis: 50%;
+    padding: 5px;
+    
+}
+
+ .img9{
+     
+     display: flex;
+    flex-basis: 40%;
+    padding: 5px;
+    
+ }
+
+.img10{
+    
+    display: flex;
+    flex-basis: 60%;
+    padding: 5px;
+    
+}
+
+/* for right container*/
+
+
+.right-container{
+       
+    flex: 0 0 320px;
+    border: 3px solid black;
+   
+}
+
+.sub-right-con1{
+     
+     display: flex;
+    border: 2px solid black;
+    margin: 10px;
+    padding: 10px;
+}
+
+.sub-right-con2{
+     
+     display: flex;
+    border: 2px solid black;
+    margin: 10px;
+    padding: 10px;
+}
+
+.sub-right-con3{
+     
+     display: flex;
+    border: 2px solid black;
+    margin: 10px;
+    padding: 10px;
+}
+
+.sub-right-con4{
+     
+     display: flex;
+    border: 2px solid black;
+    margin: 10px;
+    padding: 10px;
+}
+
+.sub-right-con5{
+     
+     display: flex;
+    border: 2px solid black;
+    margin: 10px;
+    padding: 10px;
+}
+
+.sub-right-con6{
+     
+     display: flex;
+    border: 2px solid black;
+    margin: 10px;
+    padding: 10px;
+}
+
+
 
