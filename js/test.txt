@@ -1,0 +1,80 @@
+
+//Evaluate the below:
+5 + "34"
+ans:'534'
+
+5 - "4"
+ans:1
+
+10 % 5
+ans:0
+
+5 % 10
+ans:5
+
+"Java" + "Script"
+ans:'JavaScript'
+
+
+" " + " "
+ans:' '
+
+" " + 0
+ans:' 0'
+
+true + true
+ans:2
+
+true + false
+ans:1
+
+false + true
+ans:1
+
+false - true
+ans:-1
+
+3 - 4
+ans:-1
+
+"Bob" - "bill"
+ans:NaN
+
+
+//Evaluate the below comparisons:
+5 >= 1
+ans:true
+
+0 === 1
+ans:false
+
+4 <= 1
+ans:false
+
+1 != 1
+ans:false
+
+"A" > "B"
+ans:true
+
+"B" < "C"
+ans:false
+
+"a" > "A"
+ans:true
+
+"b" < "A"
+ans:false
+
+true === false
+ans:false
+
+true != true
+ans:false
+
+
+// Make the string: "Hi There! It's "sunny" out" by using the + sign:
+ans:
+"\"Hi There! It's " + "\"sunny\"" + " out\""
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                               
