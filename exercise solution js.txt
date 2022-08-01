@@ -1,0 +1,23 @@
+QUESTION NO 1:
+//new exercise//
+var firstName = "Siddiq";
+var lastName = "Ahmed";
+ firstName + " " + lastName;
+
+ 'Siddique Ahmed'//Result
+
+
+QUESTION NO 2:
+//new exercise//
+var name=prompt("please enter your name")
+var lastName=prompt("please enter your lastname")
+"i am "+name+" "+lastName+" from haripur"
+
+'i am siddiq ahmed from haripur'//Result
+
+QUESTION NO 3:
+//new exercise//
+var a=21;
+var b=34;
+a+b
+55//sum
