@@ -26,10 +26,24 @@ class Mamal extends Animal {
   	} 
 }
 
+class Parrot extends Animal {
+  constructor(name, type, color) {
+    super(name, type, color);
+  }
+
+  sound() {
+    
+      console.log(`Chiiii Chiiiii I'm ${this.name}, a ${this.type}, of color ${this.color}`);
+    } 
+}
+
 const mamal = new Mamal("Cow","healthy","black");
+const parrot = new Parrot("Parrot","bird","green");
 
 mamal.introduce();
 mamal.sound();
+parrot.introduce();
+parrot.sound();
 
 //Evaluate these:
 //#1
@@ -37,8 +51,8 @@ mamal.sound();
 {} === {} => false
 
 //#2 what is the value of property a for each object.
-const object1 = { a: 5 }; 
-const object2 = object1; = true
-const object3 = object2; = true
-const object4 = { a: 5}; 
-object1.a = 4;
+const object1 = { a: 5 }; // 4
+const object2 = object1; // 4
+const object3 = object2; // 4
+const object4 = { a: 5}; // 4
+object1.a = 4; // 4
